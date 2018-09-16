@@ -5,6 +5,7 @@ import br.ce.wcaquino.exceptions.DivisaoPorZeroException;
 public class Calculadora {
 
 	public int soma(int a, int b) {
+		System.out.println("soma");
 		return a+b;
 	}
 
@@ -17,6 +18,10 @@ public class Calculadora {
 			throw new DivisaoPorZeroException();
 		
 		return a/b;
+	}
+	
+	public void imprime() {
+		System.out.println("Passei aqui");
 	}
 
 }
