@@ -1,0 +1,13 @@
+/home/marlon/projetos/TestesUnitarios/src/main/java/br/ce/wcaquino/entidades/Filme.java
+/home/marlon/projetos/TestesUnitarios/src/main/java/br/ce/wcaquino/entidades/Usuario.java
+/home/marlon/projetos/TestesUnitarios/src/main/java/br/ce/wcaquino/entidades/Locacao.java
+/home/marlon/projetos/TestesUnitarios/src/main/java/br/ce/wcaquino/daos/LocacaoDAOFake.java
+/home/marlon/projetos/TestesUnitarios/src/main/java/br/ce/wcaquino/servicos/SPCService.java
+/home/marlon/projetos/TestesUnitarios/src/main/java/br/ce/wcaquino/servicos/EmailService.java
+/home/marlon/projetos/TestesUnitarios/src/main/java/br/ce/wcaquino/daos/LocacaoDAO.java
+/home/marlon/projetos/TestesUnitarios/src/main/java/br/ce/wcaquino/servicos/LocacaoService.java
+/home/marlon/projetos/TestesUnitarios/src/main/java/br/ce/wcaquino/utils/DataUtils.java
+/home/marlon/projetos/TestesUnitarios/src/main/java/br/ce/wcaquino/servicos/Calculadora.java
+/home/marlon/projetos/TestesUnitarios/src/main/java/br/ce/wcaquino/exceptions/DivisaoPorZeroException.java
+/home/marlon/projetos/TestesUnitarios/src/main/java/br/ce/wcaquino/exceptions/LocadoraException.java
+/home/marlon/projetos/TestesUnitarios/src/main/java/br/ce/wcaquino/exceptions/FilmeSemEstoqueException.java

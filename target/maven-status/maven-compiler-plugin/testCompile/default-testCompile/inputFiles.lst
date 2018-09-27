@@ -1,0 +1,15 @@
+/home/marlon/projetos/TestesUnitarios/src/test/java/br/ce/wcaquino/builders/UsuarioBuilder.java
+/home/marlon/projetos/TestesUnitarios/src/test/java/br/ce/wcaquino/servicos/CalculadoraMockTest.java
+/home/marlon/projetos/TestesUnitarios/src/test/java/br/ce/wcaquino/builders/LocacaoBuilder.java
+/home/marlon/projetos/TestesUnitarios/src/test/java/br/ce/wcaquino/servicos/AssertTest.java
+/home/marlon/projetos/TestesUnitarios/src/test/java/br/ce/wcaquino/matchers/DiaSemanaMatcher.java
+/home/marlon/projetos/TestesUnitarios/src/test/java/br/ce/wcaquino/servicos/CalcularValorLocacaoTest.java
+/home/marlon/projetos/TestesUnitarios/src/test/java/br/ce/wcaquino/matchers/DataDiferencaDiasMatcher.java
+/home/marlon/projetos/TestesUnitarios/src/test/java/br/ce/wcaquino/servicos/LocacaoServiceTest_PowerMock.java
+/home/marlon/projetos/TestesUnitarios/src/test/java/br/ce/wcaquino/servicos/OrdemTest.java
+/home/marlon/projetos/TestesUnitarios/src/test/java/br/ce/wcaquino/runners/ParallelRunner.java
+/home/marlon/projetos/TestesUnitarios/src/test/java/br/ce/wcaquino/suites/SuiteExecucao.java
+/home/marlon/projetos/TestesUnitarios/src/test/java/br/ce/wcaquino/servicos/CalculadoraTest.java
+/home/marlon/projetos/TestesUnitarios/src/test/java/br/ce/wcaquino/servicos/LocacaoServiceTest.java
+/home/marlon/projetos/TestesUnitarios/src/test/java/br/ce/wcaquino/builders/FilmeBuilder.java
+/home/marlon/projetos/TestesUnitarios/src/test/java/br/ce/wcaquino/matchers/MatchersProprios.java
