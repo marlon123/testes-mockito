@@ -7,6 +7,8 @@ import java.util.Collection;
 import java.util.List;
 
 import org.hamcrest.CoreMatchers;
+import org.junit.After;
+import org.junit.AfterClass;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
@@ -60,6 +62,18 @@ public class CalcularValorLocacaoTest {
 	@Before
 	public void setUp() {
 		MockitoAnnotations.initMocks(this);
+		System.out.println("Iniciando 2...");
+		CalculadoraTest.ordem.append(3);
+	}
+	
+	@After
+	public void tearDown() {
+		System.out.println("Finalizando 2...");
+	}
+	
+	@AfterClass
+	public static void tearDownClass(){
+		System.out.println(CalculadoraTest.ordem.toString());
 	}
 	
 	@Parameters(name="{3}")

@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="6" failures="0" name="br.ce.wcaquino.servicos.CalcularValorLocacaoTest" time="0.064" errors="0" skipped="0">
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="br.ce.wcaquino.servicos.CalcularValorLocacaoTest" time="16.085" tests="6" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/home/marlon/.sdkman/candidates/java/8.0.181-oracle/jre/lib/amd64"/>
@@ -21,8 +21,7 @@
     <property name="java.endorsed.dirs" value="/home/marlon/.sdkman/candidates/java/8.0.181-oracle/jre/lib/endorsed"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.io.tmpdir" value="/tmp"/>
-    <property name="line.separator" value="
-"/>
+    <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="os.name" value="Linux"/>
     <property name="classworlds.conf" value="/usr/share/maven/bin/m2.conf"/>
@@ -62,10 +61,10 @@
     <property name="sun.desktop" value="gnome"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="br.ce.wcaquino.servicos.CalcularValorLocacaoTest" name="deveCalcularValorLocacaoConsiderandoDescontos[2 Filmes: Sem desconto]" time="0.012"/>
-  <testcase classname="br.ce.wcaquino.servicos.CalcularValorLocacaoTest" name="deveCalcularValorLocacaoConsiderandoDescontos[3 Filmes: 25%]" time="0"/>
-  <testcase classname="br.ce.wcaquino.servicos.CalcularValorLocacaoTest" name="deveCalcularValorLocacaoConsiderandoDescontos[4 Filmes: 50%]" time="0.01"/>
-  <testcase classname="br.ce.wcaquino.servicos.CalcularValorLocacaoTest" name="deveCalcularValorLocacaoConsiderandoDescontos[5 Filmes: 75%]" time="0.009"/>
-  <testcase classname="br.ce.wcaquino.servicos.CalcularValorLocacaoTest" name="deveCalcularValorLocacaoConsiderandoDescontos[6 Filmes: 100%]" time="0.018"/>
-  <testcase classname="br.ce.wcaquino.servicos.CalcularValorLocacaoTest" name="deveCalcularValorLocacaoConsiderandoDescontos[7 Filmes: Sem desconto]" time="0.015"/>
+  <testcase name="deveCalcularValorLocacaoConsiderandoDescontos[7 Filmes: Sem desconto]" classname="br.ce.wcaquino.servicos.CalcularValorLocacaoTest" time="2.697"/>
+  <testcase name="deveCalcularValorLocacaoConsiderandoDescontos[5 Filmes: 75%]" classname="br.ce.wcaquino.servicos.CalcularValorLocacaoTest" time="2.69"/>
+  <testcase name="deveCalcularValorLocacaoConsiderandoDescontos[3 Filmes: 25%]" classname="br.ce.wcaquino.servicos.CalcularValorLocacaoTest" time="2.665"/>
+  <testcase name="deveCalcularValorLocacaoConsiderandoDescontos[6 Filmes: 100%]" classname="br.ce.wcaquino.servicos.CalcularValorLocacaoTest" time="2.687"/>
+  <testcase name="deveCalcularValorLocacaoConsiderandoDescontos[4 Filmes: 50%]" classname="br.ce.wcaquino.servicos.CalcularValorLocacaoTest" time="2.675"/>
+  <testcase name="deveCalcularValorLocacaoConsiderandoDescontos[2 Filmes: Sem desconto]" classname="br.ce.wcaquino.servicos.CalcularValorLocacaoTest" time="2.671"/>
 </testsuite>

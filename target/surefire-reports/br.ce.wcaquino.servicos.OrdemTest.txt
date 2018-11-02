@@ -1,4 +1,12 @@
 -------------------------------------------------------------------------------
 Test set: br.ce.wcaquino.servicos.OrdemTest
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 sec
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.446 sec <<< FAILURE! - in br.ce.wcaquino.servicos.OrdemTest
+verifica(br.ce.wcaquino.servicos.OrdemTest)  Time elapsed: 0.445 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<1> but was:<0>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at br.ce.wcaquino.servicos.OrdemTest.verifica(OrdemTest.java:20)
+

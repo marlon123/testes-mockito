@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="2" failures="0" name="br.ce.wcaquino.servicos.OrdemTest" time="0" errors="0" skipped="0">
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="br.ce.wcaquino.servicos.OrdemTest" time="0.446" tests="2" errors="0" skipped="0" failures="1">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/home/marlon/.sdkman/candidates/java/8.0.181-oracle/jre/lib/amd64"/>
@@ -21,8 +21,7 @@
     <property name="java.endorsed.dirs" value="/home/marlon/.sdkman/candidates/java/8.0.181-oracle/jre/lib/endorsed"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.io.tmpdir" value="/tmp"/>
-    <property name="line.separator" value="
-"/>
+    <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="os.name" value="Linux"/>
     <property name="classworlds.conf" value="/usr/share/maven/bin/m2.conf"/>
@@ -62,6 +61,14 @@
     <property name="sun.desktop" value="gnome"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="br.ce.wcaquino.servicos.OrdemTest" name="inicia" time="0"/>
-  <testcase classname="br.ce.wcaquino.servicos.OrdemTest" name="verifica" time="0"/>
+  <testcase name="verifica" classname="br.ce.wcaquino.servicos.OrdemTest" time="0.445">
+    <failure message="expected:&lt;1&gt; but was:&lt;0&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<1> but was:<0>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at br.ce.wcaquino.servicos.OrdemTest.verifica(OrdemTest.java:20)
+]]></failure>
+  </testcase>
+  <testcase name="inicia" classname="br.ce.wcaquino.servicos.OrdemTest" time="0.001"/>
 </testsuite>

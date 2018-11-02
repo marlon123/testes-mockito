@@ -20,6 +20,7 @@ import java.util.List;
 
 import org.hamcrest.CoreMatchers;
 import org.junit.After;
+import org.junit.AfterClass;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Rule;
@@ -65,11 +66,17 @@ public class LocacaoServiceTest {
 	public void setUp() {
 		MockitoAnnotations.initMocks(this);
 		System.out.println("Iniciando 2...");
+		CalculadoraTest.ordem.append("2");
 	}
 	
 	@After
 	public void tearDown() {
 		System.out.println("Finalizando 2...");
+	}
+	
+	@AfterClass
+	public static void tearDownClass(){
+		System.out.println(CalculadoraTest.ordem.toString());
 	}
 	
 	@Test
